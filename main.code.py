@@ -1,3 +1,5 @@
-name = input("enter name"
-very normal = input("enter the last 3 numbers of your moms credit card")
-peint(
+name = input("enter name")
+very normal = input("enter the last 3 digits of the random lines on the back of your moms credit card")
+print(" you start in a dark room and suddenly the lights turn on, then you saw a shadow, he introdused himeself as diddy")
+print(f" hello there {name} he said")
+print("HOW DA HAIL DO YOU KNOW MY NAME ")
