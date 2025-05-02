@@ -193,12 +193,15 @@ def choose_path(level):
     path_a = random.choice([
         Enemy("Bombardiro Crocodilo", 55, 14),
         Enemy("Tung Tung Tung Sahur", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Ugly Man", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Tralalero Tralala", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Ugly Child", 50, 12, special={"type": "bleed", "chance": 0.4}),
         Enemy("Brr Brr Patapim", 60, 13),
     ])
     path_b = random.choice([
-        Enemy("Cappucino Assasino", 45, 10, special={"type": "weaken", "chance": 0.5}),
-        Enemy("Trippa Troppa Tralala Lirilì Rilà Tung Tung Sahur Boneca Tung Tung Tralalelo Trippi Troppa Crocodina", 40, 16),
-        Enemy("Bomboclat Crococlat", 48, 11, special={"type": "bleed", "chance": 0.3}),
+        Enemy("Jawline Creator", 45, 10, special={"type": "weaken", "chance": 0.5}),
+        Enemy("Asian Parent", 40, 16),
+        Enemy("Hunchy Dingle", 48, 11, special={"type": "bleed", "chance": 0.3}),
     ])
 
     print(f"\n=== Level {level} ===")
