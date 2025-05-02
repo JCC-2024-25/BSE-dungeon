@@ -1,3 +1,6 @@
+nameeeee = input("WHATS YOUR NAME")
+print (f"YOU WILL DIE TODAY {nameeeee}...")
+
 import random
 import time
 
@@ -188,14 +191,14 @@ def battle(player, enemy):
 
 def choose_path(level):
     path_a = random.choice([
-        Enemy("Goblin Brute", 55, 14),
-        Enemy("Poison Snake", 50, 12, special={"type": "bleed", "chance": 0.4}),
-        Enemy("Orc Grunt", 60, 13),
+        Enemy("Bombardiro Crocodilo", 55, 14),
+        Enemy("Tung Tung Tung Sahur", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Brr Brr Patapim", 60, 13),
     ])
     path_b = random.choice([
-        Enemy("Dark Acolyte", 45, 10, special={"type": "weaken", "chance": 0.5}),
-        Enemy("Fire Imp", 40, 16),
-        Enemy("Vampire Bat", 48, 11, special={"type": "bleed", "chance": 0.3}),
+        Enemy("Cappucino Assasino", 45, 10, special={"type": "weaken", "chance": 0.5}),
+        Enemy("Trippa Troppa Tralala Lirilì Rilà Tung Tung Sahur Boneca Tung Tung Tralalelo Trippi Troppa Crocodina", 40, 16),
+        Enemy("Bomboclat Crococlat", 48, 11, special={"type": "bleed", "chance": 0.3}),
     ])
 
     print(f"\n=== Level {level} ===")
