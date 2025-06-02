@@ -86,8 +86,8 @@ class Player:
 
     def use_item(self, enemy):
         print("\nItems:")
-        for item, count in self.inventory.items():
-            print(f"- {item} x{count}")
+        for item in self.inventory:
+            print(f"- {item}")
         item = input("Which item do you want to use? ").strip().lower()
 
         if item.startswith("heal"):
@@ -181,7 +181,7 @@ def battle(player, enemy):
     if player.is_alive():
         print(f"\nYou defeated {enemy.name}!")
         player.inventory.append("Healing Potion")
-        print(You got a Healing Potion!)
+        print("You got a Healing Potion!")
         return True
     else:
         print("You died...")
