@@ -191,17 +191,17 @@ def battle(player, enemy):
 
 def choose_path(level):
     path_a = random.choice([
-        Enemy("Bombardiro Crocodilo", 55, 14),
-        Enemy("Tung Tung Tung Sahur", 50, 12, special={"type": "bleed", "chance": 0.4}),
-        Enemy("Ugly Man", 50, 12, special={"type": "bleed", "chance": 0.4}),
-        Enemy("Tralalero Tralala", 50, 12, special={"type": "bleed", "chance": 0.4}),
-        Enemy("Ugly Child", 50, 12, special={"type": "bleed", "chance": 0.4}),
-        Enemy("Brr Brr Patapim", 60, 13),
+        Enemy("Taky Yaky", 55, 14),
+        Enemy("Basher, Crasher, and Smasher", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Weird hand with an eye on it", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Cool Cat", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("Brashy Bat", 50, 12, special={"type": "bleed", "chance": 0.4}),
+        Enemy("King 7n7", 60, 13),
     ])
     path_b = random.choice([
-        Enemy("Jawline Creator", 45, 10, special={"type": "weaken", "chance": 0.5}),
-        Enemy("Asian Parent", 40, 16),
-        Enemy("Hunchy Dingle", 48, 11, special={"type": "bleed", "chance": 0.3}),
+        Enemy("Soul Sucker", 45, 10, special={"type": "weaken", "chance": 0.5}),
+        Enemy("Acher the Catcher", 40, 16),
+        Enemy("Delirious Devil", 48, 11, special={"type": "bleed", "chance": 0.3}),
     ])
 
     print(f"\n=== Level {level} ===")
