@@ -181,6 +181,7 @@ def battle(player, enemy):
     if player.is_alive():
         print(f"\nYou defeated {enemy.name}!")
         player.inventory.append("Healing Potion")
+        print(You got a Healing Potion!)
         return True
     else:
         print("You died...")
