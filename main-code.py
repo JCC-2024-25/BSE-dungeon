@@ -25,7 +25,7 @@ class Player:
         print(f"You took {reduced} damage! HP: {self.hp}/{self.max_hp}")
 
     def heal(self):
-        if self.inventory["Healing Potion"] <= 0:
+        if "Healing Potion" not in self.inventory:
             print("You have no Healing Potions!")
             return
         if self.heal_cooldown > 0:
