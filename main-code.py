@@ -14,11 +14,7 @@ class Player:
         self.buff_turns = 0
         self.heal_cooldown = 0
         self.regen_turns = 0
-        self.inventory = {
-            "Healing Potion": 2,
-            "Bomb": 1,
-            "Strength Elixir": 1
-        }
+        self.inventory = [ "Healing Potion",  "Healing Potion", "Bomb", "Strength Elixir"]
 
     def is_alive(self):
         return self.hp > 0
