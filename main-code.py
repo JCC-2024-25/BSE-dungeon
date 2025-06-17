@@ -33,7 +33,7 @@ class Player:
             return
         heal_amt = random.randint(25, 35)
         self.hp = min(self.max_hp, self.hp + heal_amt)
-        self.inventory["Healing Potion"] -= 1
+        self.inventory["Healing Potion"] = 1
         self.heal_cooldown = 2
         self.regen_turns = 3
         print(f"You used a Healing Potion and restored {heal_amt} HP!")
